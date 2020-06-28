@@ -5,18 +5,48 @@ body{
 }
 
 .form{
+    padding-top: 30px;
     background-color: cornsilk;
-    height: 1000px;
+    height: 400px;
     color: black;
     font-size: 17px;
 }
 
-
-input[type="radio"]{
+.form input[type="radio"]{
     display: block;
 }
 
+.form-footer{
+    padding-top: 30px;
+}
+
+.form button{
+    padding: 16px 50px;
+    font-weight: bold;    
+    font-size: 16px;
+    color: white;
+    background-color: #f4511e;
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #fd4108;
+}
+
+@keyframes hover {
+    from {
+      background-color: lawngreen;
+    }
+  
+    to {
+        background-color: white;
+    }
+  }
+
 label{
+    cursor: initial;
     text-align: right;
 }
 
@@ -41,4 +71,15 @@ label{
 
 .radio-container label{
     text-align: left;
+}
+
+.form input {
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid black;
+    
+}
+
+.form input:focus{
+    outline: none;
 }
