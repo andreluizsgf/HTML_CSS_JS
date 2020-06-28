@@ -1,0 +1,44 @@
+body{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+
+.form{
+    background-color: cornsilk;
+    height: 1000px;
+    color: black;
+    font-size: 17px;
+}
+
+
+input[type="radio"]{
+    display: block;
+}
+
+label{
+    text-align: right;
+}
+
+.container{
+    align-content: center;
+    justify-content: center;
+    display: grid;
+}
+
+.grid-item{
+    margin: 5px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 300px 300px;
+}
+
+.radio-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+}
+
+.radio-container label{
+    text-align: left;
+}
